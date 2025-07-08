@@ -40,6 +40,10 @@
 
     @mixin atMedium {
       font-weight: 300;
+
+      &.is-current-link {
+        color: #fabb69;
+      }
     }
   }
 }
