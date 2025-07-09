@@ -20,6 +20,7 @@
   "homepage": "https://github.com/rmaterapl/travel-site#readme",
   "description": "",
   "dependencies": {
+    "axios": "^1.10.0",
     "css-minimizer-webpack-plugin": "^7.0.2",
     "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.9.2",
