@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,12 +20,19 @@
   "homepage": "https://github.com/rmaterapl/travel-site#readme",
   "description": "",
   "dependencies": {
+    "css-minimizer-webpack-plugin": "^7.0.2",
     "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.9.2",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
+    "fs-extra": "^11.3.0",
+    "html-webpack-plugin": "^5.6.3",
     "postcss-hexrgba": "^2.1.0",
     "postcss-import": "^16.1.1",
     "postcss-loader": "^8.1.1",
